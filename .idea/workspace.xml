@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3de2711a-1a9d-4a1a-9ac2-e581f4eb8776" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qUizSWfhZFylIUoRHphdxgqLMc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.30114943" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bsk69\Desktop\pro_alpha\src\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="pro_alpha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3de2711a-1a9d-4a1a-9ac2-e581f4eb8776" name="Default Changelist" comment="" />
+      <created>1617140831480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617140831480</updated>
+      <workItem from="1617140836969" duration="13903000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="485" y="150" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1617141123091">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="485" y="150" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1707.920@0.0.1707.920" timestamp="1617141123091" />
+    <state width="1663" height="204" key="GridCell.Tab.0.bottom" timestamp="1617154869355">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="204" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1617154869355" />
+    <state width="1663" height="204" key="GridCell.Tab.0.center" timestamp="1617154869355">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="204" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1617154869355" />
+    <state width="1663" height="204" key="GridCell.Tab.0.left" timestamp="1617154869355">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="204" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1617154869355" />
+    <state width="1663" height="204" key="GridCell.Tab.0.right" timestamp="1617154869355">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="204" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1617154869355" />
+    <state width="1663" height="204" key="GridCell.Tab.1.bottom" timestamp="1617154869355">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="204" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1617154869355" />
+    <state width="1663" height="204" key="GridCell.Tab.1.center" timestamp="1617154869355">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="204" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1617154869355" />
+    <state width="1663" height="204" key="GridCell.Tab.1.left" timestamp="1617154869355">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="204" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1617154869355" />
+    <state width="1663" height="204" key="GridCell.Tab.1.right" timestamp="1617154869355">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="204" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1617154869355" />
+    <state x="334" y="35" key="SettingsEditor" timestamp="1617141110644">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="334" y="35" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1617141110644" />
+    <state x="588" y="354" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1617141085439">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="588" y="354" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1707.920@0.0.1707.920" timestamp="1617141085439" />
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1617151616672">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1617151616672" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/main.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="currentString" />
+        <watch expression="currentString" />
+        <watch expression="currentString[5]" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
