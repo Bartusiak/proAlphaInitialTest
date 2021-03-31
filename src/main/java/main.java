@@ -11,7 +11,7 @@ public class main {
         Date compileDate = new Date();
         File file = new File("src/main/Input.txt");
         File tempFile = new File("tempFile.txt");
-        File outputFile = new File("outputFile.txt");
+        File outputFile = new File("output.txt");
         String[] objString;
         List<String> content = new ArrayList<String>();
 
