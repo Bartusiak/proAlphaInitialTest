@@ -17,7 +17,7 @@ public class main {
 
         try{
             List<String> contents = FileUtils.readLines(file, "UTF-8");
-            long start = System.currentTimeMillis();
+            long start = System.nanoTime();
             for (String line : contents){
                 objString = line.split("\" \"");
                 String tempContent4 = objString[1].replaceAll(" ","");
@@ -29,7 +29,8 @@ public class main {
                     tempElement4 = tempElement4.split("PA")[1];
                     tempContent4 = tempContent4.replaceAll("PA", "");
                     tempContent4 = tempContent4.replaceAll(tempElement4, "");
-                    tempContent4 = tempContent4.replaceAll(":proALPHA:", "");
+                    tempContent4 = tempContent4.replaceAll(":(.*?):", "");
+                    //tempContent4 = tempContent4.replaceAll(":proALPHA:","");
                     tempContent4 = tempContent4 + tempElement4;
                     content.add(tempContent4);
                 }
@@ -37,9 +38,10 @@ public class main {
                 if(!tempContent5.equals("") && !tempContent5.equals("\"") ){
                     String tempElement5 = tempContent5.split(":")[0];
                     tempElement5 = tempElement5.split("PA")[1];
-                    tempContent5 = tempContent5.replace("PA","");
-                    tempContent5 = tempContent5.replace(tempElement5 ,"");
-                    tempContent5 = tempContent5.replace(":proALPHA:","");
+                    tempContent5 = tempContent5.replaceAll("PA","");
+                    tempContent5 = tempContent5.replaceAll(tempElement5 ,"");
+                    tempContent5 = tempContent5.replaceAll(":(.*?):","");
+                    //tempContent5 = tempContent5.replaceAll(":proALPHA:","");
                     tempContent5= tempContent5 + tempElement5;
                     content.add(tempContent5);
                 }
@@ -47,18 +49,18 @@ public class main {
                 if(!tempContent6.equals("") && !tempContent6.equals("\"")){
                     String tempElement6 = tempContent6.split(":")[0];
                     tempElement6 = tempElement6.split("PA")[1];
-                    tempContent6 = tempContent6.replace("PA","");
-                    tempContent6 = tempContent6.replace(tempElement6,"");
-                    tempContent6 = tempContent6.replace(":proALPHA:","");
-                    tempContent6 = tempContent6.replace("\"","");
+                    tempContent6 = tempContent6.replaceAll("PA","");
+                    tempContent6 = tempContent6.replaceAll(tempElement6,"");
+                    tempContent6 = tempContent6.replaceAll(":(.*?):","");
+                    //tempContent6 = tempContent6.replaceAll(":proALPHA:","");
+                    tempContent6 = tempContent6.replaceAll("\"","");
                     tempContent6= tempContent6 + tempElement6;
                     content.add(tempContent6);
                 }
             }
-            content.sort(Comparator.<String>naturalOrder());
-            long end = System.currentTimeMillis();
-            long result = (end - start);
-            System.out.println(result);
+            content.sort(Comparator.<String>reverseOrder());
+            long end = System.nanoTime();
+            long result = (end - start)/1000000;
             FileUtils.writeStringToFile(outputFile, String.valueOf(result)+"ms\n","UTF-8");
             for (int i=0; i<content.size();i++){
                 FileUtils.writeStringToFile(outputFile, content.get(i)+"\n","UTF-8",true);
@@ -67,7 +69,7 @@ public class main {
         }catch (IOException e){
             e.printStackTrace();
         }
-        System.out.println(compileDate);
+        System.out.println("Done!: ");
     }
 
 }
